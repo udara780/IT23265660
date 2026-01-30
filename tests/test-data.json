@@ -1,0 +1,16 @@
+[
+  {
+    "id": "TC001",
+    "category": "Basic",
+    "singlish": "ayubowan",
+    "expectedSinhala": "ආයුබෝවන්",
+    "description": "Basic greeting"
+  },
+  {
+    "id": "TC002",
+    "category": "Basic",
+    "singlish": "kohomada",
+    "expectedSinhala": "කොහොමද",
+    "description": "How are you"
+  }
+]
