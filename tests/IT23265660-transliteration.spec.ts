@@ -4,7 +4,7 @@ import * as path from 'path';
 import * as XLSX from 'xlsx';
 
 // Load test cases from Excel file
-const testDataPath = path.join(__dirname, 'test-data.xlsx');
+const testDataPath = path.join(__dirname, 'IT23265660_test-data.xlsx');
 const workbook = XLSX.readFile(testDataPath);
 const sheetName = workbook.SheetNames[0]; // Get first sheet
 const worksheet = workbook.Sheets[sheetName];
